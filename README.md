@@ -1,6 +1,6 @@
 # Banking-Analytics-Dashboard
 
-## PROJECT oVERVIEW
+## PROJECT OVERVIEW
 
 This project features a multi-page Executive Banking Analytics Dashboard designed to provide a 360-degree view of a financial institution's operations. The suite transforms raw transactional and demographic data into actionable insights regarding loan portfolios, deposit health, customer segmentation, and risk exposure.
 
@@ -16,11 +16,11 @@ Analyze Customer Segmentation: Identify high-value demographics by Age, National
 
 Evaluate Product Performance: Measure the penetration and growth of core products like Business Lending, Saving Accounts, and Checking Accounts relative to loan volumes.
 
-# DATA MODEL
+## DATA MODEL
 
 The data model for this project is designed using a Star Schema approach to ensure efficient querying, scalability, and clear data relationships.
 
-** Overview**
+**Overview**
 
 Central fact table: Banking
 
@@ -36,7 +36,7 @@ Banking Relationship
 
 Dedicated measure table: Measures (for DAX calculations)
 
-# TECHINCAL STACK
+## TECHINCAL STACK
 
 Tool: Power BI Desktop, jupyter notebook,Excel
 
@@ -50,7 +50,7 @@ Custom Tooltips: Hover-over details for "Business Lending" and other products.
 
 Dynamic Filtering: Slicers for Nationality, Gender, and Investment Advisor.
 
-# KEY DASHBOARD PAGES & FEATURES
+## KEY DASHBOARD PAGES & FEATURES
 
 1. **Executive Overview**
    
@@ -82,19 +82,19 @@ Temporal Analysis: A line chart tracking "Saving Amount vs. Total Loan" from 199
 
 Top Performers: Identification of top 5 customers by savings to facilitate high-net-worth (HNW) relationship management.
 
-# BUSINESS INSIGHTS
+## BUSINESS INSIGHTS
 
 **Liquidity Management Alert:** The Loan-to-Deposit Ratio (LDR) stands at **116.40%**, indicating that the bank is lending more than it holds in deposits. This suggests a strategic need to aggressively drive deposit-focused campaigns (like the Jade/Gold loyalty programs) to ensure long-term liquidity.
 
-**High-Value Silver Segment:** While the 65+ age group represents the largest volume of both deposits and loans, the **26-35** and **36-45** cohorts show significant engagement in "**Business Lending**," marking them as the primary drivers for future commercial growth.
+**High-Value Silver Segment:** While the **65+** age group represents the largest volume of both deposits and loans, the **26-35** and **36-45** cohorts show significant engagement in "**Business Lending**," marking them as the primary drivers for future commercial growth.
 
-**Portfolio Risk Concentration:** Approximately **40.73%** of clients fall under Risk Category **2**, which is relatively stable. However, the **5.33% **of clients in the highest risk category **(Level 5)** should be prioritized for immediate credit review to prevent potential NPAs (Non-Performing Assets).
+**Portfolio Risk Concentration:** Approximately **40.73%** of clients fall under Risk Category **2**, which is relatively stable. However, the **5.33%** of clients in the highest risk category **(Level 5)** should be prioritized for immediate credit review to prevent potential NPAs (Non-Performing Assets).
 
 **Product Dominance vs. Diversity:** Business Lending is the runaway leader in product usage by amount, dwarfing "Checking" and "Savings" accounts. There is a clear opportunity to cross-sell lower-tier products to these high-value business clients to increase "sticky" capital.
 
 **Regional Wealth Distribution:** European and Asian nationalities contribute the lion's share of the bank's total volume. Strategic expansion or localized product offerings in the American and Australian markets could represent a significant untapped growth opportunity for the portfolio.
 
-# DASHBOARD PREVIEW 
+## DASHBOARD PREVIEW 
 
 ### Excecutive banking overview
 
