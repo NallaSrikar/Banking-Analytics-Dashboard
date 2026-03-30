@@ -104,7 +104,7 @@ Top Performers: Identification of top 5 customers by savings to facilitate high-
 
 ![page 2](assets/images/banking-dashboard/page2-Customer_Analysis.JPG)
 
-### Loan Analysi
+### Loan Analysis
 
 ![page 3](assets/images/banking-dashboard/page3-Loan_Analysis.JPG)
 
